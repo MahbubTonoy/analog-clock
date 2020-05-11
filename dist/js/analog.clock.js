@@ -6,7 +6,7 @@
 
   var secDeg = sec / 60*360,
   minDeg = min / 60*360 + sec / 60 * 6,
-  hrDeg = hr / 12*360 + sec / 60*6;
+  hrDeg = hr / 12*360 + min / 60*30;
 
   var secArm = document.getElementById("secArm"),
   minArm = document.getElementById("minArm"),
