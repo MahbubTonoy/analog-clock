@@ -9,7 +9,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border: 20px solid #0059a1;
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5), inset 3px 3px 5px rgba(0,0,0,0.3);
 }
 .analog-clock::before {
   content: '';
@@ -102,7 +102,6 @@
   animation: sec-anim 60s infinite linear;
   -webkit-animation: sec-anim 60s infinite linear;
   z-index: 8;
-  box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
 }
 .analog-sec::before {
   content: "";
@@ -162,7 +161,6 @@
   -webkit-transform: translate(-50%, -50%);
   animation: min-anim 3600s infinite linear;
   -webkit-animation: min-anim 3600s infinite linear;
-  box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
 }
 .analog-min::before {
   content: "";
@@ -223,7 +221,6 @@
   -o-transform: translate(-50%, -50%);
   animation: hr-anim 43200s infinite linear;
   -webkit-animation: hr-anim 43200s infinite linear;
-  box-shadow: 3px 3px 2px rgba(0,0,0,0.2);
 }
 .analog-hr::before {
   content: "";
